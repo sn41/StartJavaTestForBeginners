@@ -1,6 +1,6 @@
 package tasks.advanced;
 
-public class Task1 {
+public class Step1 {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }

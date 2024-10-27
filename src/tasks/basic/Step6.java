@@ -5,7 +5,7 @@ package tasks.basic;
 //создадим класс который хранит эмодзи
 
 class Emoji {
-    //строку эмодзи будем хранить в переменной code
+    //строку эмодзи будем хранить в поле класса, переменной code
     String code = "";
 }
 
@@ -15,9 +15,9 @@ public class Step6 {
         //объявим локальные переменные
         String catCode;
         String dogCode;
+
         Emoji cat;
         Emoji dog;
-
 
         //присвоим им значения - инициализируем
 

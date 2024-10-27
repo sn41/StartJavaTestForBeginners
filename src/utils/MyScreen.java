@@ -1,21 +1,21 @@
 package utils;
 
-public class Screen {
-    public void println(String string) {
+public class MyScreen {
+    public static void println(String string) {
         System.out.println(string);
     }
 
-    public void println(String[] strings) {
+    public static void println(String[] strings) {
         for (String tmp : strings) {
             println(tmp);
         }
     }
 
-    public void println(int value) {
+    public static void println(int value) {
         System.out.println(value);
     }
 
-    public void println(int[] values) {
+    public static void println(int[] values) {
         for (int tmp : values) {
             println(tmp);
         }
